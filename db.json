@@ -1,0 +1,108 @@
+{
+  "users": [
+      {
+          "id": "1",
+          "name": "Prabesh Rijal",
+          "email": "prabeshrijal@gmail.com",
+          "phone": "9806760555",
+          "address": "Nepal",
+          "status": "active"
+      },
+      {
+          "id": "2",
+          "name": "Suman Thapa",
+          "email": "sumanthapa@gmail.com",
+          "phone": "9806587945",
+          "address": "India",
+          "status": "active"
+      },
+      {
+          "id": "3",
+          "name": "Praful Tamrakar",
+          "email": "praful@gmail.com",
+          "phone": "9806778956",
+          "address": "Nepal",
+          "status": "inactive"
+      },
+      {
+          "id": "4",
+          "name": "Vivek Kumar Gurung",
+          "email": "vivek@gmail.com",
+          "phone": "9846587985",
+          "address": "USA",
+          "status": "active"
+      },
+      {
+          "id": "5",
+          "name": "Sinita Khatiwada",
+          "email": "sunitakhatiwada@gmail.com",
+          "phone": "9806778946",
+          "address": "Japan",
+          "status": "active"
+      },
+      {
+          "id": "6",
+          "name": "Anand Gupta",
+          "email": "anandgupta@gmail.com",
+          "phone": "9806778957",
+          "address": "Japan",
+          "status": "inactive"
+      },
+      {
+          "id": "7",
+          "name": "Manoj Pandey",
+          "email": "monojpandey@gmail.com",
+          "phone": "98035489756",
+          "address": "Canada",
+          "status": "inactive"
+      },
+      {
+          "id": "8",
+          "name": "Manisha Subedi",
+          "email": "manaisha@gmail.com",
+          "phone": "984562137",
+          "address": "UK",
+          "status": "active"
+      },
+      {
+          "id": "9",
+          "name": "Sujan Kumal",
+          "email": "sujankumal@gmail.com",
+          "phone": "980325477",
+          "address": "USA",
+          "status": "inactive"
+      },
+      {
+          "id": "10",
+          "name": "Bishnu Pariyar",
+          "email": "bishnu@gmail.com",
+          "phone": "9876542122",
+          "address": "Nepal",
+          "status": "inactive"
+      },
+      {
+          "id": "11",
+          "name": "Ashwini Khatiwada",
+          "email": "ashwini@gmail.com",
+          "phone": "9864758898",
+          "address": "UK",
+          "status": "active"
+      },
+      {
+          "id": "12",
+          "name": "Shandhaya Sunar",
+          "email": "sandhaya_sunar@gmail.com",
+          "phone": "9856478513",
+          "address": "Nepal",
+          "status": "active"
+      },
+      {
+          "id": "13",
+          "name": "Prayush Rijal",
+          "email": "prayush67@gmail.com",
+          "phone": "9806760555",
+          "address": "Nepal",
+          "status": "active"
+      }
+  ]
+}

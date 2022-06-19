@@ -1,0 +1,186 @@
+// -----variables::begins-------
+$global-primary-color: rgb(0, 120, 0);
+$global-white-color: #ffffff;
+$global-gray-color: #f8f8f8;
+$global-dark-gray-color: rgb(65, 65, 65);
+$box-shadow-light: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+// -----variables::ends-------
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: $global-gray-color;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.is-inactive,
+.is-active {
+    p {
+        text-align: center;
+        padding: 0.1rem 0;
+        font-weight: 500;
+        font-size: 0.8rem;
+        border-radius: 1rem;
+        color: $global-white-color;
+    }
+}
+
+.is-active {
+    p {
+        background: rgb(0, 128, 0);
+    }
+}
+
+.is-inactive {
+    p {
+        background: rgb(197, 0, 0);
+    }
+}
+
+.global-heading {
+    font-size: 1.1rem;
+    color: $global-dark-gray-color;
+    margin: 1rem 0;
+}
+
+.reset-btn {
+    background: rgb(187, 0, 0) !important;
+    margin-left: 0.6rem;
+    cursor: pointer !important;
+}
+
+.line-break {
+    height: 2px;
+    background-color: #dddddd;
+    margin-bottom: 0.8rem;
+}
+
+.pagination {
+    ul {
+        display: flex;
+
+        li {
+            list-style-type: none;
+            margin-right: 1rem;
+            font-weight: 500;
+
+            button {
+                background-color: $global-primary-color;
+                color: $global-white-color;
+                padding: 0.2rem 1rem;
+                outline: none;
+                border: none;
+            }
+        }
+    }
+}
+
+// --------------------------------------
+.global-section {
+    padding: 1rem 0;
+
+    .search-parent-wrapper {
+        display: flex;
+        padding: 0 0 1rem 0;
+
+        .search-childs {
+            flex: 1;
+
+            &:first-child {
+                display: flex;
+
+                input {
+                    width: 100%;
+                    padding: 0rem 1rem;
+                    border: 1px solid #dcdcdc;
+                    outline: none;
+                }
+
+                input:focus {
+                    border: 1px solid $global-primary-color;
+                }
+
+                button {
+                    background: $global-primary-color;
+                    outline: none;
+                    border: none;
+                    padding: 0.4rem 1rem;
+                    color: white;
+                }
+            }
+
+            &:nth-child(2) {
+                padding: 0 0 0 1rem;
+
+                select {
+                    width: 100%;
+                    height: 100%;
+                    padding: 0rem 1rem;
+                    border: 1px solid #dcdcdc;
+                    outline: none;
+                }
+
+                select:focus {
+                    border: 1px solid $global-primary-color;
+                }
+            }
+
+            &:last-child {
+                padding: 0 0 0 1rem;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+
+                h3 {
+                    font-size: 1rem;
+                    margin-right: 1rem;
+                    margin-bottom: 0;
+                }
+
+                .button-only {
+                    height: 100%;
+                    outline: none;
+                    border: none;
+                    padding: 0.4rem 1rem;
+                    color: white;
+                    margin-right: 1rem;
+                }
+
+                .button-active {
+                    background: $global-primary-color;
+                }
+
+                .button-inactive {
+                    background: rgb(197, 0, 0);
+                }
+            }
+        }
+    }
+
+    .table {
+        background: $global-white-color;
+
+        thead {
+            background: $global-gray-color;
+        }
+    }
+}
+
+// --------------------------------------
+// responsive::begin
+@media only screen and (max-width: 3000px) {
+    .container {
+        max-width: 1300px;
+    }
+}
+
+// responsive::end
